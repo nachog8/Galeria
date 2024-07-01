@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {
+    .gallery {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 900px) {
+    .gallery {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        column-count: 1;
+    }
+    .navbar-2 .links a {
+        font-size: 16px; /* Reducir el tamaño del texto para pantallas pequeñas */
+    }
+}

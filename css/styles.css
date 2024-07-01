@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #000;
+    border-bottom: 1px solid #444;
+}
+
+.navbar > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo, .user-img {
+    flex: 0 1 5%;
+}
+
+.search-container {
+    flex: 0 1 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    padding-right: 10px;
+    border-right: 1px solid #444;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+}
+
+.buscador {
+    padding-left: 30px; /* Ajusta según el tamaño de tu icono para evitar que el texto se sobreponga */
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+    color: #5d5d5d;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    fill: #5d5d5d;
+}
+
+.user-img {
+    border-left: 1px solid #444;
+    padding-left: 10px;
+}
+
+.user-img img {
+    border-radius: 50%; 
+    width: 30px;
+    height: 30px; 
+}
+
+.navbar-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #000;
+    border-bottom: 1px solid #444;
+}
+
+.navbar-2 .links {
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.navbar-2 .links a {
+    color: #5d5d5d;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-2 .links a:hover, .navbar-2 .links a:active {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-thickness: 3px; /* Ajusta el grosor del subrayado */
+    text-underline-offset: 13px; /* Ajusta la distancia del subrayado al texto */
+}
+
+.gallery {
+    column-count: 4;
+    padding: 0px 60px;
+}
+
+.gallery img {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
